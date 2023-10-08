@@ -1,5 +1,5 @@
-FROM osgeo/gdal:ubuntu-small-3.3.2 
-# comment
+FROM ghcr.io/osgeo/gdal:ubuntu-small-3.7.2
+# change gdal source
 ENV DEBIAN_FRONTEND=noninteractive \
     LC_ALL=C.UTF-8 \
     LANG=C.UTF-8 \
